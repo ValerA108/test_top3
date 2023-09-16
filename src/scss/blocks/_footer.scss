@@ -12,6 +12,24 @@
   // padding-top: 26px;
 }
 
+&__social-list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+&__social-inner {
+  padding-top: 14px;
+  display: flex;
+  gap: 8px;
+  // justify-content: space-between;
+  // align-items: center;
+}
+
+&__social-item {
+  list-style: none;
+}
+
 	@media (max-width: 1200px) {
 		font-size: 26px;
 	}
